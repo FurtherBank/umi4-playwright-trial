@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # 克隆代码
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
     # 准备好 npm
     - uses: actions/setup-node@v3
       with:

@@ -34,11 +34,7 @@ jobs:
       run: |
         sudo npm install -g pnpm
         pnpm install
-
+    # 运行自动化测试
     - name: Run tests
       run: |
         pnpm test
-    # 运行自动化测试
-    - name: Running Test
-      # 通过前面章节定义的命令行执行自动化测试
-      run: yarn test
